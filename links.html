@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Good Coast Finance Specialists — All links for Chris Matthews. Asset & equipment finance, Gold Coast.">
+    <title>Good Coast Finance Specialists | Links</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Good Coast Finance Specialists | Links">
+    <meta property="og:description" content="All the ways to reach Chris Matthews — Asset & Equipment Finance Specialist, Gold Coast.">
+    <meta property="og:url" content="https://www.goodcoastfinance.com.au/links">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary-900: #072E2F;
+            --primary-800: #0B3B3C;
+            --primary-700: #0E4E50;
+            --primary-600: #1A6B6D;
+            --primary-500: #2A8F8F;
+            --primary-400: #3DB5B5;
+            --primary-300: #6DD4D4;
+            --primary-200: #A8E8E8;
+            --surface-900: #1C1F26;
+            --cta-primary: #E8573D;
+            --cta-primary-hover: #D44A32;
+            --copper: #C47D3A;
+            --copper-light: #D99A5B;
+            --success: #2ECC71;
+            --green-whatsapp: #25d366;
+            --white: #FFFFFF;
+            --neutral-200: #DDE1E8;
+            --neutral-400: #9CA3AF;
+            --neutral-500: #6B7280;
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(160deg, var(--surface-900) 0%, var(--primary-900) 60%, var(--primary-800) 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Ambient glows */
+        body::after {
+            content: '';
+            position: fixed;
+            top: -20%;
+            right: -15%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(42, 143, 143, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            bottom: -25%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(232, 87, 61, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .links-container {
+            width: 100%;
+            max-width: 420px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Profile header */
+        .profile {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            background: rgba(255,255,255,0.08);
+            border: 2px solid rgba(255,255,255,0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+
+        .profile-avatar span {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--white);
+            letter-spacing: 2px;
+            opacity: 0.9;
+        }
+
+        .profile-name {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 2px;
+        }
+
+        .profile-brand {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--copper-light);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+        }
+
+        .profile-tagline {
+            font-size: 0.9rem;
+            color: var(--primary-300);
+            line-height: 1.5;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .profile-badge {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 6px 16px;
+            background: rgba(42, 143, 143, 0.15);
+            border: 1px solid rgba(42, 143, 143, 0.3);
+            border-radius: 50px;
+            color: var(--primary-300);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* Link buttons */
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 14px;
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.08) 50%, transparent 70%);
+            transform: translateX(-100%);
+            transition: transform 0.6s;
+        }
+
+        .link-btn:hover::after { transform: translateX(100%); }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255,255,255,0.2);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        }
+
+        .link-btn-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .link-btn-icon svg { width: 20px; height: 20px; }
+
+        .link-btn-text {
+            flex: 1;
+        }
+
+        .link-btn-label {
+            display: block;
+            font-size: 0.68rem;
+            color: var(--neutral-400);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+
+        .link-btn-arrow {
+            width: 16px;
+            height: 16px;
+            opacity: 0.4;
+            flex-shrink: 0;
+        }
+
+        /* WhatsApp - primary CTA */
+        .link-whatsapp {
+            background: var(--green-whatsapp);
+            border-color: var(--green-whatsapp);
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+        }
+        .link-whatsapp:hover {
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
+        }
+        .link-whatsapp .link-btn-icon { background: rgba(255,255,255,0.2); }
+        .link-whatsapp .link-btn-label { color: rgba(255,255,255,0.8); }
+
+        /* Phone */
+        .link-phone .link-btn-icon { background: rgba(232, 87, 61, 0.2); }
+        .link-phone .link-btn-icon svg { stroke: var(--cta-primary); }
+
+        /* Website */
+        .link-website .link-btn-icon { background: rgba(42, 143, 143, 0.2); }
+        .link-website .link-btn-icon svg { stroke: var(--primary-400); }
+
+        /* Calculator */
+        .link-calculator .link-btn-icon { background: rgba(196, 125, 58, 0.2); }
+        .link-calculator .link-btn-icon svg { stroke: var(--copper-light); }
+
+        /* Facebook */
+        .link-facebook .link-btn-icon { background: rgba(24, 119, 242, 0.2); }
+        .link-facebook .link-btn-icon svg { fill: #1877F2; }
+
+        /* Email */
+        .link-email .link-btn-icon { background: rgba(42, 143, 143, 0.15); }
+        .link-email .link-btn-icon svg { stroke: var(--primary-300); }
+
+        /* Location */
+        .link-location .link-btn-icon { background: rgba(255,255,255,0.06); }
+        .link-location .link-btn-icon svg { stroke: var(--neutral-400); }
+
+        /* Footer */
+        .links-footer {
+            text-align: center;
+        }
+
+        .links-footer-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.15;
+            margin-bottom: 12px;
+        }
+
+        .links-footer-logo .logo-good {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--white);
+            letter-spacing: -0.5px;
+        }
+
+        .links-footer-logo .logo-finance {
+            font-size: 0.5rem;
+            font-weight: 700;
+            color: var(--copper);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .links-footer p {
+            font-size: 0.7rem;
+            color: var(--neutral-500);
+            line-height: 1.5;
+        }
+
+        .links-footer a {
+            color: var(--copper);
+            text-decoration: none;
+        }
+
+        /* Animations */
+        .profile, .link-btn, .links-footer {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.5s ease forwards;
+        }
+
+        .link-btn:nth-child(1) { animation-delay: 0.1s; }
+        .link-btn:nth-child(2) { animation-delay: 0.15s; }
+        .link-btn:nth-child(3) { animation-delay: 0.2s; }
+        .link-btn:nth-child(4) { animation-delay: 0.25s; }
+        .link-btn:nth-child(5) { animation-delay: 0.3s; }
+        .link-btn:nth-child(6) { animation-delay: 0.35s; }
+        .link-btn:nth-child(7) { animation-delay: 0.4s; }
+        .links-footer { animation-delay: 0.45s; }
+
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .profile, .link-btn, .links-footer {
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="links-container">
+        <!-- Profile -->
+        <div class="profile">
+            <div class="profile-avatar">
+                <span>CM</span>
+            </div>
+            <h1 class="profile-name">Chris Matthews</h1>
+            <p class="profile-brand">Good Coast Finance Specialists</p>
+            <p class="profile-tagline">Asset & Equipment Finance Specialist. Same day approvals. 40+ lenders. Gold Coast & Australia Wide.</p>
+            <span class="profile-badge">Dealer Licence: 4603352</span>
+        </div>
+
+        <!-- Links -->
+        <div class="links-list">
+            <!-- WhatsApp — Primary CTA -->
+            <a href="https://wa.me/61498973117?text=Hey%20Chris%2C%20I%27m%20interested%20in%20finance" class="link-btn link-whatsapp" target="_blank" rel="noopener">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Fastest response</span>
+                    WhatsApp Chris
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:0498973117" class="link-btn link-phone">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Call direct</span>
+                    0498 973 117
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Website -->
+            <a href="index.html" class="link-btn link-website">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Full website</span>
+                    goodcoastfinance.com.au
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Repayment Calculator -->
+            <a href="index.html#calculator" class="link-btn link-calculator">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h4"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Free tool</span>
+                    Repayment Calculator
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/p/18CDfMuq6v/" class="link-btn link-facebook" target="_blank" rel="noopener">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Follow us</span>
+                    Facebook
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:chris@financehunting.com.au" class="link-btn link-email">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Email</span>
+                    chris@financehunting.com.au
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Location -->
+            <a href="https://maps.google.com/?q=7-9+Activity+Crescent+Molendinar+QLD+4214" class="link-btn link-location" target="_blank" rel="noopener">
+                <div class="link-btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="link-btn-text">
+                    <span class="link-btn-label">Gold Coast</span>
+                    7-9 Activity Cres, Molendinar
+                </div>
+                <svg class="link-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <div class="links-footer">
+            <div class="links-footer-logo">
+                <span class="logo-good">Good Coast</span>
+                <span class="logo-finance">Finance Specialists</span>
+            </div>
+            <p>Powered by <a href="https://www.financehunting.com.au" target="_blank" rel="noopener">Finance Hunting</a> &mdash; 37 Years Collective Lending Experience</p>
+            <p style="margin-top: 4px;">Dealer Licence: 4603352</p>
+        </div>
+    </div>
+</body>
+</html>

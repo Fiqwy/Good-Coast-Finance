@@ -1,0 +1,2624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Good Coast Finance Specialists — Same day approvals on asset and equipment finance. Cars, boats, machinery & more. 40+ lenders competing for your best rate. Gold Coast, Brisbane, Australia Wide.">
+    <title>Good Coast Finance Specialists | Asset & Equipment Finance Gold Coast</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Good Coast Finance Specialists | Asset & Equipment Finance">
+    <meta property="og:description" content="Same day approvals on cars, boats, machinery & more. 40+ lenders competing for your best rate. All credit profiles welcome. Gold Coast, Brisbane, Australia Wide.">
+    <meta property="og:url" content="https://www.goodcoastfinance.com.au">
+    <meta property="og:site_name" content="Good Coast Finance Specialists">
+    <meta property="og:locale" content="en_AU">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Good Coast Finance Specialists | Asset & Equipment Finance">
+    <meta name="twitter:description" content="Same day approvals. 40+ lenders. All credit profiles welcome. Gold Coast, Brisbane, Australia Wide.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.goodcoastfinance.com.au">
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "name": "Good Coast Finance Specialists",
+        "description": "Asset and equipment finance broker offering same day approvals with 40+ lenders. Cars, boats, machinery, caravans and more.",
+        "url": "https://www.goodcoastfinance.com.au",
+        "telephone": "+61498973117",
+        "email": "chris@financehunting.com.au",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "7-9 Activity Crescent",
+            "addressLocality": "Molendinar",
+            "addressRegion": "QLD",
+            "postalCode": "4214",
+            "addressCountry": "AU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -27.9596,
+            "longitude": 153.3793
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "areaServed": [
+            { "@type": "City", "name": "Gold Coast" },
+            { "@type": "City", "name": "Brisbane" },
+            { "@type": "City", "name": "Sunshine Coast" },
+            { "@type": "Country", "name": "Australia" }
+        ],
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "Finance Hunting",
+            "url": "https://www.financehunting.com.au"
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Dealer Licence",
+            "recognizedBy": {
+                "@type": "Organization",
+                "name": "Queensland Government"
+            }
+        },
+        "sameAs": [
+            "https://www.facebook.com/share/p/18CDfMuq6v/"
+        ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+/* ===== RESET & VARIABLES ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    /* Primary — Deep Teal (Trust + Growth) */
+    --primary-900: #072E2F;
+    --primary-800: #0B3B3C;
+    --primary-700: #0E4E50;
+    --primary-600: #1A6B6D;
+    --primary-500: #2A8F8F;
+    --primary-400: #3DB5B5;
+    --primary-300: #6DD4D4;
+    --primary-200: #A8E8E8;
+
+    /* Dark Surfaces (Authority + Sophistication) */
+    --surface-900: #1C1F26;
+    --surface-800: #252830;
+    --surface-700: #2F323B;
+
+    /* CTA — Warm Coral (Urgency + Action) */
+    --cta-primary: #E8573D;
+    --cta-primary-hover: #D44A32;
+    --cta-secondary: #F5A623;
+    --cta-secondary-hover: #E09615;
+
+    /* Success/Approval (Green = Yes, Go, Money) */
+    --success: #2ECC71;
+    --success-dark: #27AE60;
+
+    /* Accent Copper (Sophisticated premium touch) */
+    --copper: #C47D3A;
+    --copper-light: #D99A5B;
+
+    /* Neutrals */
+    --neutral-50: #F7F8FA;
+    --neutral-100: #EEF0F4;
+    --neutral-200: #DDE1E8;
+    --neutral-300: #C4CAD4;
+    --neutral-400: #9CA3AF;
+    --neutral-500: #6B7280;
+    --neutral-600: #4A5568;
+    --neutral-700: #374151;
+    --neutral-800: #1F2937;
+    --neutral-900: #1A1D23;
+
+    --white: #FFFFFF;
+    --error: #DC2626;
+
+    --radius-sm: 8px;
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    /* Spacing rhythm (8px base) */
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-5: 40px;
+    --space-6: 48px;
+    --space-8: 64px;
+    --space-10: 80px;
+    --space-12: 96px;
+    --space-16: 128px;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
+/* Skip-to-content link (WCAG 2.1 Level A) */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    padding: 12px 24px;
+    background: var(--primary-600);
+    color: var(--white);
+    font-weight: 700;
+    border-radius: var(--radius);
+    z-index: 10000;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 16px;
+}
+
+body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--neutral-800);
+    background: var(--white);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+a { text-decoration: none; color: inherit; transition: all 0.3s ease; }
+
+/* ===== TYPOGRAPHY ===== */
+.section-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(2rem, 3.5vw, 2.75rem);
+    font-weight: 700;
+    color: var(--neutral-900);
+    line-height: 1.15;
+    margin-bottom: 16px;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: var(--neutral-500);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.section-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--primary-500);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--copper);
+}
+
+.section-header { text-align: center; margin-bottom: 64px; }
+
+/* ===== BUTTONS ===== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: var(--radius);
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.2) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.6s;
+}
+
+.btn:hover::after { transform: translateX(100%); }
+
+.btn-icon { width: 20px; height: 20px; flex-shrink: 0; }
+
+.btn-coral {
+    background: var(--cta-primary);
+    color: var(--white);
+    border-color: var(--cta-primary);
+    box-shadow: 0 4px 15px rgba(232, 87, 61, 0.3);
+}
+
+.btn-coral:hover {
+    background: var(--cta-primary-hover);
+    border-color: var(--cta-primary-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(232, 87, 61, 0.45);
+}
+
+.btn-outline-white {
+    background: transparent;
+    color: var(--white);
+    border-color: rgba(255,255,255,0.35);
+}
+
+.btn-outline-white:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: var(--white);
+    transform: translateY(-3px);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary-600);
+    border-color: var(--primary-400);
+}
+
+.btn-outline:hover {
+    background: var(--primary-600);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.btn-full { width: 100%; }
+
+/* ===== GLASS EFFECT ===== */
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-lg);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    transition: all 0.4s ease;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+}
+
+.nav-container { display: flex; align-items: center; justify-content: space-between; height: 76px; }
+
+.nav-logo { display: flex; flex-direction: column; line-height: 1.15; }
+.logo-good { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--primary-800); letter-spacing: -0.5px; }
+.logo-finance { font-size: 0.6rem; font-weight: 700; color: var(--copper); text-transform: uppercase; letter-spacing: 3px; }
+
+.nav-menu { display: flex; align-items: center; gap: 4px; list-style: none; }
+
+.nav-link {
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--neutral-600);
+    border-radius: 8px;
+    transition: all 0.25s;
+}
+
+.nav-link:hover { color: var(--primary-600); background: var(--neutral-50); }
+.nav-link.active { color: var(--primary-600); background: rgba(26,107,109,0.08); }
+
+.nav-cta {
+    background: var(--cta-primary) !important;
+    color: var(--white) !important;
+    padding: 10px 22px !important;
+    border-radius: var(--radius) !important;
+    box-shadow: 0 2px 10px rgba(232, 87, 61, 0.3);
+    font-weight: 700;
+}
+
+.nav-cta:hover { box-shadow: 0 4px 20px rgba(232, 87, 61, 0.4) !important; transform: translateY(-1px); }
+
+.nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+.nav-toggle span { width: 24px; height: 2.5px; background: var(--neutral-700); border-radius: 2px; transition: all 0.3s; }
+.nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.nav-toggle.active span:nth-child(2) { opacity: 0; }
+.nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* ===== HERO ===== */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(160deg, var(--surface-900) 0%, var(--primary-900) 60%, var(--primary-800) 100%);
+    overflow: hidden;
+    padding-top: 76px;
+}
+
+/* Subtle ambient glow — replaces cheap particles */
+.hero::after {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(42, 143, 143, 0.2) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -15%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(232, 87, 61, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.hero-bg { position: absolute; inset: 0; overflow: hidden; }
+
+.hero-content { position: relative; z-index: 2; text-align: center; padding: var(--space-6) 0 var(--space-8); }
+
+.hero-badge-top {
+    display: inline-block;
+    padding: 8px 24px;
+    background: rgba(42, 143, 143, 0.15);
+    border: 1px solid rgba(42, 143, 143, 0.3);
+    border-radius: 50px;
+    color: var(--primary-300);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+.hero-title {
+    color: var(--white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 28px;
+}
+
+.hero-line { display: block; }
+
+.hero-highlight {
+    color: var(--cta-primary);
+    font-size: clamp(2.8rem, 5.5vw, 4rem);
+}
+
+.hero-subtitle {
+    color: var(--primary-200);
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+
+.hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: var(--space-8); }
+
+.hero-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 28px 40px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-xl);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-stat { text-align: center; }
+
+.hero-stat-number {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--cta-primary);
+    line-height: 1;
+}
+
+.hero-stat-plus { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2rem; font-weight: 800; color: var(--cta-primary); }
+
+.hero-stat-label { display: block; font-size: 0.75rem; color: var(--primary-300); margin-top: 4px; font-weight: 500; letter-spacing: 0.5px; }
+
+.hero-stat-divider { width: 1px; height: 48px; background: rgba(255,255,255,0.15); }
+
+/* Hero trust badge */
+.hero-trust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    font-size: 0.72rem;
+    color: var(--primary-300);
+    opacity: 0.6;
+    letter-spacing: 0.5px;
+}
+
+.hero-trust-sep { opacity: 0.4; }
+
+/* Scroll indicator */
+.hero-scroll-hint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    color: var(--primary-300);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    animation: scrollBounce 2s ease-in-out infinite;
+}
+
+.hero-scroll-hint svg {
+    stroke: var(--primary-300);
+}
+
+@keyframes scrollBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+/* ===== LENDER MARQUEE ===== */
+.lender-bar {
+    background: var(--surface-800);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    overflow: hidden;
+}
+
+.lender-label {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--neutral-500);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.lender-label strong { color: var(--neutral-300); }
+
+.marquee { overflow: hidden; position: relative; }
+
+.marquee::before, .marquee::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+
+.marquee::before { left: 0; background: linear-gradient(90deg, var(--surface-800), transparent); }
+.marquee::after { right: 0; background: linear-gradient(-90deg, var(--surface-800), transparent); }
+
+.marquee-track {
+    display: flex;
+    gap: 48px;
+    animation: marqueeScroll 25s linear infinite;
+    width: max-content;
+}
+
+.lender-logo {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--neutral-400);
+    white-space: nowrap;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.lender-logo:hover { opacity: 1; color: var(--primary-300); }
+
+@keyframes marqueeScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* ===== SERVICES ===== */
+.services { padding: var(--space-16) 0; background: var(--white); }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.service-card {
+    padding: 40px 32px;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--neutral-200);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-500), var(--cta-primary));
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.service-card:hover {
+    border-color: transparent;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+}
+
+.service-card:hover::before { opacity: 1; }
+
+.service-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+    border-radius: var(--radius);
+    margin-bottom: 24px;
+    padding: 14px;
+    box-shadow: 0 4px 15px rgba(26, 107, 109, 0.25);
+}
+
+.service-icon svg { width: 100%; height: 100%; stroke: var(--white); }
+
+.service-card h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--neutral-900); margin-bottom: 10px; }
+
+.service-card p { font-size: 0.92rem; color: var(--neutral-500); line-height: 1.7; margin-bottom: 16px; }
+
+.service-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-500);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.service-link:hover { color: var(--cta-primary); gap: 8px; }
+
+/* ===== CTA STRIP ===== */
+.cta-strip {
+    padding: 32px 0;
+    background: linear-gradient(135deg, var(--primary-800), var(--primary-700));
+}
+
+.cta-strip-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.cta-strip p {
+    color: var(--white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ===== CALCULATOR ===== */
+.calculator-section {
+    padding: var(--space-16) 0;
+    background: linear-gradient(160deg, var(--surface-900), var(--primary-900));
+    position: relative;
+    overflow: hidden;
+}
+
+.calculator-section::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(42, 143, 143, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.calculator-section .section-tag { color: var(--primary-400); }
+.calculator-section .section-title { color: var(--white); }
+.calculator-section .section-subtitle { color: var(--primary-300); }
+
+.calculator-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+.calc-inputs { margin-bottom: 40px; }
+
+.calc-group { margin-bottom: 28px; }
+
+.calc-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-300);
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.calc-slider-row { display: flex; align-items: center; gap: 20px; }
+
+.calc-slider {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    outline: none;
+}
+
+.calc-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    background: var(--cta-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(232, 87, 61, 0.4);
+    transition: transform 0.2s;
+}
+
+.calc-slider::-webkit-slider-thumb:hover { transform: scale(1.15); }
+
+.calc-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: var(--cta-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 10px rgba(232, 87, 61, 0.4);
+}
+
+.calc-value {
+    min-width: 100px;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.calc-results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.calc-result-card {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.calc-result-primary {
+    background: rgba(232, 87, 61, 0.12);
+    border-color: rgba(232, 87, 61, 0.25);
+}
+
+.calc-result-label { display: block; font-size: 0.75rem; color: var(--primary-300); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+
+.calc-result-amount {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.calc-result-primary .calc-result-amount { color: var(--cta-primary); }
+
+.calc-rate-guide { text-align: center; font-size: 0.8rem; color: var(--primary-300); margin-top: 20px; font-weight: 500; }
+
+.calc-disclaimer { text-align: center; font-size: 0.75rem; color: var(--neutral-500); margin-top: 8px; }
+
+/* ===== WHY US ===== */
+.why-us { padding: var(--space-16) 0; background: var(--neutral-50); }
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.feature-card {
+    padding: 36px 28px;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--neutral-200);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+    border-color: var(--primary-400);
+}
+
+.feature-icon-wrap {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(26,107,109,0.08), rgba(26,107,109,0.15));
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.feature-icon-wrap svg { width: 100%; height: 100%; stroke: var(--primary-600); }
+
+.feature-card h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--neutral-900); margin-bottom: 8px; }
+.feature-card p { font-size: 0.9rem; color: var(--neutral-500); line-height: 1.7; }
+
+.feature-banner {
+    padding: 36px 40px;
+    background: linear-gradient(135deg, var(--surface-900), var(--primary-900));
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-banner-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.feature-banner-content svg { width: 48px; height: 48px; stroke: var(--cta-primary); flex-shrink: 0; }
+.feature-banner-content h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.2rem; font-weight: 700; color: var(--cta-primary); margin-bottom: 4px; }
+.feature-banner-content p { font-size: 0.95rem; color: var(--primary-300); }
+
+/* ===== TESTIMONIALS ===== */
+.testimonials {
+    padding: var(--space-16) 0;
+    background: var(--white);
+}
+
+.rating-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: var(--neutral-500);
+    font-weight: 500;
+}
+
+.rating-stars {
+    color: var(--cta-secondary);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.testimonial-carousel {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial-track { position: relative; min-height: 280px; }
+
+.testimonial-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    padding: 48px;
+    background: var(--neutral-50);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--neutral-200);
+}
+
+.testimonial-slide.active {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.testimonial-stars { color: var(--cta-secondary); font-size: 1.3rem; margin-bottom: 20px; letter-spacing: 4px; }
+
+.testimonial-slide blockquote {
+    font-size: 1.1rem;
+    color: var(--neutral-700);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.testimonial-author { display: flex; align-items: center; gap: 14px; }
+
+.testimonial-avatar {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.testimonial-author strong { display: block; color: var(--neutral-800); font-size: 0.95rem; }
+.testimonial-author span { font-size: 0.8rem; color: var(--neutral-400); }
+
+.testimonial-controls { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 32px; }
+
+.testimonial-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1px solid var(--neutral-200);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.testimonial-btn:hover { background: var(--primary-600); border-color: var(--primary-600); }
+.testimonial-btn:hover svg { stroke: var(--white); }
+.testimonial-btn svg { width: 18px; height: 18px; stroke: var(--neutral-500); }
+
+.testimonial-dots { display: flex; gap: 8px; }
+
+.testimonial-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--neutral-300);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.testimonial-dot.active { background: var(--cta-primary); transform: scale(1.2); }
+
+/* ===== HOW IT WORKS ===== */
+.how-it-works {
+    padding: var(--space-16) 0;
+    background: var(--neutral-50);
+}
+
+.timeline { max-width: 700px; margin: 0 auto; position: relative; }
+
+.timeline-line {
+    position: absolute;
+    left: 32px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--neutral-200);
+    border-radius: 2px;
+}
+
+.timeline-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(180deg, var(--primary-500), var(--cta-primary));
+    border-radius: 2px;
+    transition: height 1s ease;
+}
+
+.timeline.animated .timeline-line::after { height: 100%; }
+
+.timeline-step {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.timeline-step:last-child { margin-bottom: 0; }
+
+.timeline-dot {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--cta-primary), #F07060);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 2;
+    box-shadow: 0 4px 20px rgba(232, 87, 61, 0.3);
+}
+
+.timeline-dot span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.timeline-content {
+    background: var(--white);
+    padding: 32px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--neutral-200);
+    flex: 1;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+.timeline-content h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--neutral-900); margin-bottom: 8px; }
+.timeline-content p { font-size: 0.92rem; color: var(--neutral-500); line-height: 1.7; }
+
+/* ===== FAQ ===== */
+.faq { padding: var(--space-16) 0; background: var(--white); }
+
+.faq-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-item {
+    background: var(--white);
+    border: 1px solid var(--neutral-200);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover { border-color: var(--primary-400); }
+
+.faq-item[open] {
+    border-color: var(--primary-400);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--neutral-800);
+    cursor: pointer;
+    list-style: none;
+    transition: color 0.2s;
+}
+
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::marker { display: none; content: ''; }
+
+.faq-question:hover { color: var(--primary-600); }
+
+.faq-chevron {
+    width: 20px;
+    height: 20px;
+    stroke: var(--neutral-400);
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.faq-item[open] .faq-chevron { transform: rotate(180deg); stroke: var(--primary-600); }
+
+.faq-answer {
+    padding: 0 24px 20px;
+}
+
+.faq-answer p {
+    font-size: 0.92rem;
+    color: var(--neutral-500);
+    line-height: 1.7;
+}
+
+/* ===== ABOUT ===== */
+.about { padding: var(--space-16) 0; background: linear-gradient(160deg, var(--surface-900), var(--primary-900)); }
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: var(--space-10);
+    align-items: center;
+}
+
+.about-image-card {
+    position: relative;
+    background: linear-gradient(135deg, var(--primary-800), var(--primary-700));
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    padding: 40px;
+    text-align: center;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styled monogram — replaces broken placeholder */
+.about-monogram {
+    width: 160px;
+    height: 160px;
+    background: rgba(255,255,255,0.08);
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.about-monogram span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+
+.about-name-card {
+    color: var(--white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.about-title-card {
+    color: var(--primary-300);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.about-image-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: rgba(196, 125, 58, 0.15);
+    border: 1px solid var(--copper);
+    border-radius: 50px;
+    color: var(--copper-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.about-image-badge svg { width: 16px; height: 16px; stroke: var(--copper-light); }
+
+.about-text .section-tag { text-align: left; color: var(--primary-400); }
+.about-text .section-title { text-align: left; color: var(--white); }
+
+.about-lead { font-size: 1.15rem; color: var(--cta-primary); font-weight: 600; margin-bottom: 20px; }
+
+.about-text p { color: var(--primary-200); margin-bottom: 16px; line-height: 1.7; font-size: 0.95rem; }
+.about-text strong { color: var(--white); }
+
+.about-counter-row {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.about-counter { text-align: center; }
+
+.counter-number {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--cta-primary);
+    line-height: 1;
+}
+
+.counter-plus { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2rem; font-weight: 800; color: var(--cta-primary); }
+.counter-label { display: block; font-size: 0.8rem; color: var(--primary-300); margin-top: 4px; }
+
+.about-regions { display: flex; gap: 8px; margin-top: 24px; flex-wrap: wrap; }
+
+.region-tag {
+    padding: 6px 18px;
+    background: rgba(42, 143, 143, 0.1);
+    border: 1px solid rgba(42, 143, 143, 0.3);
+    border-radius: 50px;
+    font-size: 0.8rem;
+    color: var(--primary-300);
+    font-weight: 500;
+}
+
+/* ===== APPLY SECTION ===== */
+.apply-section {
+    padding: var(--space-16) 0;
+    background: linear-gradient(160deg, var(--primary-800), var(--primary-700));
+    position: relative;
+    overflow: hidden;
+}
+.apply-section .section-tag { color: var(--primary-300); }
+.apply-section .section-title { color: var(--white); }
+.apply-section .section-subtitle { color: var(--primary-200); }
+.apply-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+}
+.apply-info-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+.apply-step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.apply-step-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(42, 143, 143, 0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.apply-step-icon svg { width: 18px; height: 18px; stroke: var(--primary-400); }
+.apply-step strong { display: block; color: var(--white); font-size: 0.95rem; margin-bottom: 4px; }
+.apply-step p { color: var(--primary-200); font-size: 0.88rem; line-height: 1.6; margin: 0; }
+.apply-reassurance {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: var(--primary-300);
+    font-size: 0.88rem;
+}
+.apply-reassurance a { color: var(--cta-primary); font-weight: 600; text-decoration: underline; }
+.apply-cta-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 40px 32px;
+    text-align: center;
+}
+.apply-cta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    background: rgba(26,107,109,0.08);
+    border-radius: 50px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--primary-600);
+    margin-bottom: 20px;
+}
+.apply-cta-badge svg { width: 14px; height: 14px; stroke: var(--primary-600); fill: none; }
+.apply-cta-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--neutral-900);
+    margin-bottom: 12px;
+}
+.apply-cta-card p { color: var(--neutral-500); font-size: 0.92rem; margin-bottom: 24px; line-height: 1.6; }
+.apply-checklist { list-style: none; text-align: left; margin-bottom: 28px; }
+.apply-checklist li {
+    padding: 8px 0 8px 28px;
+    position: relative;
+    color: var(--neutral-700);
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--neutral-100);
+}
+.apply-checklist li:last-child { border-bottom: none; }
+.apply-checklist li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background: var(--success);
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn-full { display: block; width: 100%; }
+.apply-trust-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.apply-trust-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    color: var(--neutral-400);
+    font-weight: 500;
+}
+.apply-trust-item svg { stroke: var(--neutral-400); }
+
+/* ===== CONTACT ===== */
+.contact { padding: var(--space-16) 0; background: var(--neutral-50); }
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+}
+
+.contact-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--neutral-200);
+    padding: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-item { display: flex; align-items: flex-start; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--neutral-100); }
+.contact-item:last-child { border-bottom: none; }
+
+.contact-icon-wrap {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, rgba(26,107,109,0.08), rgba(26,107,109,0.15));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact-icon-wrap svg { width: 18px; height: 18px; stroke: var(--primary-600); }
+
+.contact-item strong { display: block; font-size: 0.75rem; color: var(--neutral-400); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.contact-item a { color: var(--primary-600); font-weight: 600; }
+.contact-item a:hover { color: var(--cta-primary); }
+.contact-item span { color: var(--neutral-700); font-size: 0.92rem; }
+
+.contact-buttons { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+
+.contact-map { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--neutral-200); }
+
+.contact-form-wrapper { position: sticky; top: 100px; }
+
+.contact-form {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--neutral-200);
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.contact-form h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.4rem; font-weight: 800; margin-bottom: 6px; color: var(--neutral-900); }
+
+.form-subtitle { font-size: 0.88rem; color: var(--neutral-500); margin-bottom: 28px; }
+
+.form-group { margin-bottom: 20px; }
+
+.form-group label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--neutral-700); margin-bottom: 6px; }
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid var(--neutral-200);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: var(--neutral-800);
+    background: var(--white);
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-500);
+    box-shadow: 0 0 0 4px rgba(42, 143, 143, 0.08);
+}
+
+.form-group textarea { resize: vertical; min-height: 100px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+/* ===== FOOTER ===== */
+.footer { background: var(--surface-900); padding: 80px 0 30px; color: var(--neutral-400); }
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-logo .logo-good { color: var(--white); }
+
+.footer-tagline { margin-top: 12px; font-size: 0.88rem; color: var(--neutral-500); line-height: 1.6; max-width: 280px; }
+
+.footer-social { display: flex; gap: 8px; margin-top: 20px; }
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-400);
+    transition: all 0.3s;
+}
+
+.footer-social a:hover { background: var(--primary-600); border-color: var(--primary-600); color: var(--white); }
+.footer-social svg { width: 18px; height: 18px; }
+
+.footer-links-col h4 { font-size: 0.8rem; font-weight: 700; color: var(--neutral-200); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; }
+
+.footer-links-col a, .footer-links-col span {
+    display: block;
+    font-size: 0.88rem;
+    color: var(--neutral-500);
+    margin-bottom: 12px;
+    transition: color 0.2s;
+}
+
+.footer-links-col a:hover { color: var(--primary-300); }
+
+.footer-compliance {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-compliance p {
+    font-size: 0.72rem;
+    color: var(--neutral-500);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.78rem;
+    color: var(--neutral-600);
+}
+
+.footer-bottom-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-legal-link { color: var(--neutral-500); transition: color 0.2s; }
+.footer-legal-link:hover { color: var(--primary-300); }
+
+.footer-powered a { color: var(--copper); font-weight: 600; }
+.footer-powered a:hover { color: var(--copper-light); }
+
+/* ===== FLOATING SMS ===== */
+.sms-float {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 60px;
+    height: 60px;
+    background: #0088cc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    z-index: 999;
+    box-shadow: 0 4px 20px rgba(0, 136, 204, 0.4);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.sms-float.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.sms-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(0, 136, 204, 0.5);
+}
+
+.sms-float svg { width: 28px; height: 28px; }
+
+.sms-tooltip {
+    position: absolute;
+    right: 72px;
+    background: var(--surface-900);
+    color: var(--white);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.sms-float:hover .sms-tooltip { opacity: 1; }
+
+/* ===== BACK TO TOP ===== */
+.back-to-top {
+    position: fixed;
+    bottom: 28px;
+    left: 28px;
+    width: 44px;
+    height: 44px;
+    background: var(--white);
+    border: 1px solid var(--neutral-200);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.back-to-top.visible { opacity: 1; transform: translateY(0); }
+.back-to-top:hover { background: var(--primary-600); border-color: var(--primary-600); }
+.back-to-top:hover svg { stroke: var(--white); }
+.back-to-top svg { width: 18px; height: 18px; stroke: var(--neutral-500); }
+
+/* ===== ANIMATIONS ===== */
+[data-animate] {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-animate="slideInLeft"] { transform: translateX(-60px); }
+[data-animate="slideInRight"] { transform: translateX(60px); }
+[data-animate="zoomIn"] { transform: scale(0.9); }
+
+[data-animate].animated {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+}
+
+/* Staggered delays */
+[data-delay="1"] { transition-delay: 0.1s; }
+[data-delay="2"] { transition-delay: 0.2s; }
+[data-delay="3"] { transition-delay: 0.3s; }
+[data-delay="4"] { transition-delay: 0.4s; }
+[data-delay="5"] { transition-delay: 0.5s; }
+[data-delay="6"] { transition-delay: 0.6s; }
+
+/* Form success */
+.form-success { text-align: center; padding: 40px 20px; }
+.form-success svg { width: 64px; height: 64px; color: var(--success); margin-bottom: 16px; }
+.form-success h3 { color: var(--neutral-800); margin-bottom: 8px; }
+.form-success p { color: var(--neutral-500); }
+
+/* ===== FOCUS STYLES ===== */
+.btn:focus-visible,
+.nav-link:focus-visible,
+.testimonial-btn:focus-visible,
+.back-to-top:focus-visible,
+.sms-float:focus-visible,
+.nav-toggle:focus-visible,
+.faq-question:focus-visible {
+    outline: 2px solid var(--primary-500);
+    outline-offset: 2px;
+}
+
+/* ===== FORM VALIDATION ===== */
+.form-error {
+    display: none;
+    font-size: 0.78rem;
+    color: var(--error);
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.form-error.visible { display: block; }
+
+.form-group input.invalid,
+.form-group select.invalid,
+.form-group textarea.invalid {
+    border-color: var(--error);
+    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.08);
+}
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    html { scroll-behavior: auto; }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .features-grid { grid-template-columns: repeat(2, 1fr); }
+    .about-grid { grid-template-columns: 1fr; gap: 48px; }
+    .about-image { order: -1; }
+    .about-text .section-tag, .about-text .section-title { text-align: center; }
+    .about-lead { text-align: center; }
+    .about-counter-row { justify-content: center; }
+    .about-regions { justify-content: center; }
+    .footer-main { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    .nav-toggle { display: flex; }
+
+    .nav-menu {
+        position: fixed;
+        top: 76px;
+        left: 0;
+        right: 0;
+        background: rgba(255,255,255,0.98);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 24px;
+        gap: 4px;
+        border-bottom: 1px solid var(--neutral-200);
+        box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        transform: translateY(-120%);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .nav-menu.active { transform: translateY(0); opacity: 1; pointer-events: auto; }
+    .nav-link { padding: 14px 16px; width: 100%; text-align: center; font-size: 1rem; }
+
+    .hero-title { font-size: 2.2rem; }
+    .hero-highlight { font-size: 2.6rem; }
+    .hero-subtitle { font-size: 1rem; }
+
+    .hero-trust { flex-direction: column; gap: 4px; font-size: 0.65rem; }
+    .hero-trust-sep { display: none; }
+
+    .hero-stats { flex-direction: column; gap: 16px; padding: 24px; }
+    .hero-stat-divider { width: 60px; height: 1px; }
+
+    .section-title { font-size: 2rem; }
+    .services-grid { grid-template-columns: 1fr; }
+    .features-grid { grid-template-columns: 1fr; }
+
+    .calculator-card { padding: 32px 24px; }
+    .calc-results { grid-template-columns: 1fr; }
+    .calc-slider-row { flex-direction: column; align-items: stretch; gap: 8px; }
+    .calc-value { text-align: center; }
+
+    .timeline-line { left: 24px; }
+    .timeline-dot { width: 48px; height: 48px; }
+    .timeline-dot span { font-size: 1.1rem; }
+    .timeline-content { padding: 24px; }
+
+    .apply-grid { grid-template-columns: 1fr; }
+    .apply-cta-card { padding: 32px 24px; }
+
+    .contact-grid { grid-template-columns: 1fr; }
+    .contact-form-wrapper { position: static; }
+    .form-row { grid-template-columns: 1fr; }
+
+    .footer-main { grid-template-columns: 1fr; gap: 32px; }
+    .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+    .footer-bottom-links { flex-direction: column; gap: 8px; }
+
+    .cta-strip-inner { flex-direction: column; text-align: center; gap: 16px; }
+
+    .hero-ctas { flex-direction: column; align-items: center; }
+    .hero-ctas .btn { width: 100%; max-width: 320px; }
+
+    .feature-banner-content { flex-direction: column; text-align: center; }
+
+    .sms-float { width: 52px; height: 52px; bottom: 20px; right: 20px; }
+    .sms-float svg { width: 24px; height: 24px; }
+    .sms-tooltip { display: none; }
+
+    .back-to-top { bottom: 20px; left: 20px; width: 38px; height: 38px; }
+}
+
+@media (max-width: 480px) {
+    .hero { min-height: auto; }
+    .hero-content { padding: 32px 0 48px; }
+    .hero-title { font-size: 1.75rem; }
+    .hero-highlight { font-size: 2.1rem; }
+    .about-counter-row { flex-direction: column; align-items: center; gap: 20px; }
+    .testimonial-slide { padding: 32px 24px; }
+}
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#services">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-good">Good Coast</span>
+                <span class="logo-finance">Finance Specialists</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="./apply.html" class="nav-link nav-cta">Apply Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-badge-top" data-animate="fadeInUp">Trusted by 500+ Gold Coast Locals</div>
+            <h1 class="hero-title">
+                <span class="hero-line" data-animate="fadeInUp" data-delay="1">Your Next Asset.</span>
+                <span class="hero-line hero-highlight" data-animate="fadeInUp" data-delay="2">Approved Today.</span>
+                <span class="hero-line" data-animate="fadeInUp" data-delay="3">Settled Fast.</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fadeInUp" data-delay="4">When you choose the right broker, everything changes. Same day approvals. Rates that save you thousands. And a process so simple, you'll wonder why you didn't call sooner.</p>
+            <div class="hero-ctas" data-animate="fadeInUp" data-delay="5">
+                <a href="#apply" class="btn btn-coral">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                    Get Approved Today
+                </a>
+                <a href="tel:0498973117" class="btn btn-outline-white">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Call Now
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fadeInUp" data-delay="6">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="37">0</span>
+                    <span class="hero-stat-label">Years Collective Experience</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="40">0</span><span class="hero-stat-plus">+</span>
+                    <span class="hero-stat-label">Trusted Lenders</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="24">0</span><span class="hero-stat-label">/7 Availability</span>
+                </div>
+            </div>
+            <div class="hero-trust" data-animate="fadeInUp" data-delay="6">
+                <span>Dealer Licence: 4603352</span>
+                <span class="hero-trust-sep">|</span>
+                <span>Powered by Finance Hunting — 37 Years Collective Experience</span>
+            </div>
+            <!-- Scroll indicator -->
+            <div class="hero-scroll-hint" data-animate="fadeInUp" data-delay="6">
+                <span>Scroll to explore</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lender Marquee -->
+    <section class="lender-bar">
+        <div class="lender-label">Your Application Reaches <strong>40+ Lenders Instantly</strong></div>
+        <div class="marquee" role="marquee" aria-label="Lender panel including NAB, Westpac, Pepper Money, Finance One, Latitude, Money3, Resimac, Plenti, MoneyME, Angle Finance">
+            <div class="marquee-track">
+                <span class="lender-logo">NAB</span>
+                <span class="lender-logo">Westpac</span>
+                <span class="lender-logo">Pepper Money</span>
+                <span class="lender-logo">Finance One</span>
+                <span class="lender-logo">Latitude</span>
+                <span class="lender-logo">Money3</span>
+                <span class="lender-logo">Resimac</span>
+                <span class="lender-logo">Plenti</span>
+                <span class="lender-logo">MoneyME</span>
+                <span class="lender-logo">Angle Finance</span>
+                <span class="lender-logo" aria-hidden="true">NAB</span>
+                <span class="lender-logo" aria-hidden="true">Westpac</span>
+                <span class="lender-logo" aria-hidden="true">Pepper Money</span>
+                <span class="lender-logo" aria-hidden="true">Finance One</span>
+                <span class="lender-logo" aria-hidden="true">Latitude</span>
+                <span class="lender-logo" aria-hidden="true">Money3</span>
+                <span class="lender-logo" aria-hidden="true">Resimac</span>
+                <span class="lender-logo" aria-hidden="true">Plenti</span>
+                <span class="lender-logo" aria-hidden="true">MoneyME</span>
+                <span class="lender-logo" aria-hidden="true">Angle Finance</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">What We Finance</span>
+                <h2 class="section-title">Choose Your Asset. We'll Handle the Rest.</h2>
+                <p class="section-subtitle">From everyday vehicles to heavy machinery — tell Chris what you need and he'll find you the best deal available.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fadeInUp" data-delay="1">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 34a4 4 0 108 0 4 4 0 00-8 0zM32 34a4 4 0 108 0 4 4 0 00-8 0z"/><path d="M12 34H6V22l4-10h18l8 10h6v12h-6M16 34h16M10 22h28"/></svg>
+                    </div>
+                    <h3>Cars, Utes, Trucks &amp; Trailers</h3>
+                    <p>Imagine driving your new car this weekend. Whether it's new or used, personal or commercial, you'll enjoy rates that beat the banks.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+                <div class="service-card" data-animate="fadeInUp" data-delay="2">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 38h36M10 38V20l8-12h12l8 12v18"/><path d="M20 38v-8h8v8"/><path d="M18 24h12"/></svg>
+                    </div>
+                    <h3>Heavy Machinery &amp; Construction</h3>
+                    <p>Excavators, loaders, forklifts — if it makes your business money, Chris can finance it. Low doc options available for ABN holders.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+                <div class="service-card" data-animate="fadeInUp" data-delay="3">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 32c0 0 8-4 20-4s20 4 20 4"/><path d="M8 32l4-16h24l4 16"/><path d="M24 16v-6M20 10h8"/></svg>
+                    </div>
+                    <h3>Boats, Jet Skis &amp; Marine</h3>
+                    <p>Picture yourself on the water this summer. Fast approvals mean you can be out there enjoying your new boat sooner than you think.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+                <div class="service-card" data-animate="fadeInUp" data-delay="4">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="32" r="6"/><circle cx="36" cy="32" r="4"/><path d="M22 32h10M10 32l-4-8h12l6-10 8 4"/></svg>
+                    </div>
+                    <h3>Motorcycles &amp; ATVs</h3>
+                    <p>Weekend rider or daily commuter? Most approvals come back same day with terms from 24 to 84 months to suit your situation.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+                <div class="service-card" data-animate="fadeInUp" data-delay="5">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="16" width="36" height="18" rx="3"/><path d="M40 25h4v6h-4M12 16v-4a3 3 0 013-3h14a3 3 0 013 3v4"/><circle cx="14" cy="34" r="4"/><circle cx="32" cy="34" r="4"/></svg>
+                    </div>
+                    <h3>Caravans, Campers &amp; RVs</h3>
+                    <p>Your next adventure is closer than you think. Easy fortnightly repayments that fit your budget, so you can start planning that road trip now.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+                <div class="service-card" data-animate="fadeInUp" data-delay="6">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="36" height="28" rx="3"/><path d="M6 14h36M24 34v8M16 42h16"/><path d="M18 22h4v6h-4zM26 22h4v6h-4z"/></svg>
+                    </div>
+                    <h3>Commercial &amp; Specialist Assets</h3>
+                    <p>Fitouts, medical equipment, yellow goods — if it helps your business run, there's a lender for it. Tailored terms and structures available.</p>
+                    <a href="#calculator" class="service-link">Get a quick quote &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Strip -->
+    <section class="cta-strip">
+        <div class="container cta-strip-inner">
+            <p>Already know what you need?</p>
+            <a href="#apply" class="btn btn-coral">Start Your Application</a>
+            <a href="sms:0498973117" class="btn btn-outline-white">Or Text Chris</a>
+        </div>
+    </section>
+
+    <!-- Loan Calculator -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">See Your Savings</span>
+                <h2 class="section-title">Discover What You'll Pay</h2>
+                <p class="section-subtitle">Slide the numbers below and watch your personalised repayment appear instantly. Most people are surprised at how affordable it is.</p>
+            </div>
+            <div class="calculator-card glass-card" data-animate="zoomIn">
+                <div class="calc-inputs">
+                    <div class="calc-group">
+                        <label>Loan Amount</label>
+                        <div class="calc-slider-row">
+                            <input type="range" id="calcAmount" min="5000" max="250000" value="35000" step="1000" class="calc-slider" aria-label="Loan amount">
+                            <span class="calc-value" id="calcAmountVal">$35,000</span>
+                        </div>
+                    </div>
+                    <div class="calc-group">
+                        <label>Loan Term</label>
+                        <div class="calc-slider-row">
+                            <input type="range" id="calcTerm" min="12" max="84" value="60" step="12" class="calc-slider" aria-label="Loan term in months">
+                            <span class="calc-value" id="calcTermVal">60 months</span>
+                        </div>
+                    </div>
+                    <div class="calc-group">
+                        <label>Interest Rate (approx.)</label>
+                        <div class="calc-slider-row">
+                            <input type="range" id="calcRate" min="4" max="18" value="7" step="0.5" class="calc-slider" aria-label="Interest rate percentage">
+                            <span class="calc-value" id="calcRateVal">7.0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-results" aria-live="polite">
+                    <div class="calc-result-card">
+                        <span class="calc-result-label">Weekly</span>
+                        <span class="calc-result-amount" id="calcWeekly">$0</span>
+                    </div>
+                    <div class="calc-result-card">
+                        <span class="calc-result-label">Fortnightly</span>
+                        <span class="calc-result-amount" id="calcFortnightly">$0</span>
+                    </div>
+                    <div class="calc-result-card calc-result-primary">
+                        <span class="calc-result-label">Monthly</span>
+                        <span class="calc-result-amount" id="calcMonthly">$0</span>
+                    </div>
+                </div>
+                <a href="#apply" class="btn btn-coral btn-full">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                    Lock In This Rate — Apply Now
+                </a>
+                <p class="calc-rate-guide">Typical rates: Good credit 5–7% | Average 7–10% | Challenged 10–16%</p>
+                <p class="calc-disclaimer">*Estimates only. Actual rates depend on your credit profile and lender. Contact Chris for a personalised quote.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">Simple Process</span>
+                <h2 class="section-title">3 Steps. That's All It Takes.</h2>
+                <p class="section-subtitle">Most people are surprised at how easy this is. Here's what happens when you reach out.</p>
+            </div>
+            <div class="timeline" data-animate="fadeInUp">
+                <div class="timeline-line" id="timelineLine"></div>
+                <div class="timeline-step" data-animate="slideInLeft" data-delay="1">
+                    <div class="timeline-dot"><span>1</span></div>
+                    <div class="timeline-content">
+                        <h3>Reach Out (Takes 30 Seconds)</h3>
+                        <p>Send Chris a quick text message or give him a call. No obligation, no credit checks. Just a friendly chat about what you need.</p>
+                    </div>
+                </div>
+                <div class="timeline-step" data-animate="slideInRight" data-delay="2">
+                    <div class="timeline-dot"><span>2</span></div>
+                    <div class="timeline-content">
+                        <h3>Chris Finds Your Best Deal</h3>
+                        <p>While you get on with your day, Chris scours 40+ lenders to find the rate and terms that save you the most money. You'll have options within hours.</p>
+                    </div>
+                </div>
+                <div class="timeline-step" data-animate="slideInLeft" data-delay="3">
+                    <div class="timeline-dot"><span>3</span></div>
+                    <div class="timeline-content">
+                        <h3>Get Approved &amp; Collect Your Asset</h3>
+                        <p>Same day approvals are the norm, not the exception. Once approved, settlement is fast and you're free to drive away, sail off, or put your new equipment to work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">The Good Coast Difference</span>
+                <h2 class="section-title">Here's Why 500+ Locals Trust Chris</h2>
+                <p class="section-subtitle">You could go to a bank. Or you could get someone who fights for the best deal on your behalf. Here's what you'll experience when you work with us.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-animate="fadeInUp" data-delay="1">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+                    </div>
+                    <h3>Super Low Docs</h3>
+                    <p>Forget drowning in forms. You'll be amazed at how little paperwork is needed to get approved.</p>
+                </div>
+                <div class="feature-card" data-animate="fadeInUp" data-delay="2">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg>
+                    </div>
+                    <h3>All Credit Profiles Welcome</h3>
+                    <p>Had trouble getting approved before? That changes today. We find solutions for every credit profile.</p>
+                </div>
+                <div class="feature-card" data-animate="fadeInUp" data-delay="3">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Flexible Terms up to 7 Years</h3>
+                    <p>Repayments that fit your life, not the other way around. Choose terms up to 84 months that feel comfortable.</p>
+                </div>
+                <div class="feature-card" data-animate="fadeInUp" data-delay="4">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                    </div>
+                    <h3>Highly Competitive Rates</h3>
+                    <p>Why pay more than you need to? Our rates consistently beat the big banks, keeping thousands in your pocket.</p>
+                </div>
+                <div class="feature-card" data-animate="fadeInUp" data-delay="5">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Lightning Fast Approvals</h3>
+                    <p>Apply this morning, get approved this afternoon. Same day approvals mean you're not left guessing.</p>
+                </div>
+                <div class="feature-card" data-animate="fadeInUp" data-delay="6">
+                    <div class="feature-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3>Huge Lender Network</h3>
+                    <p>40+ lenders competing for your business means you automatically get the best rate available.</p>
+                </div>
+            </div>
+            <div class="feature-banner" data-animate="fadeInUp">
+                <div class="feature-banner-content">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                    <div>
+                        <h3>Zero Stress. Guaranteed.</h3>
+                        <p>From the moment you reach out, everything is handled for you. The only thing you need to decide is what you want to finance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">Client Results</span>
+                <h2 class="section-title">Real Gold Coast Locals. Real Results.</h2>
+                <p class="section-subtitle">Join 500+ happy clients who got approved, funded, and on their way.</p>
+                <div class="rating-summary">
+                    <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <span>5-star rated by our clients</span>
+                </div>
+            </div>
+            <div class="testimonial-carousel" data-animate="fadeInUp" role="region" aria-label="Client testimonials">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"I needed finance for a 2022 Hilux for my building business. My credit wasn't great after some issues a few years back. Chris found me a deal at 8.2% when the bank flat out said no. Settled in 3 days. Couldn't believe it."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">JM</div>
+                            <div>
+                                <strong>Jake M.</strong>
+                                <span>Hilux Finance — Gold Coast</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"Bought a second-hand CAT excavator for my landscaping crew. Was quoted 12% through a dealer — Chris got me 7.9% with Pepper Money same day. Saved me about $6k over the loan. Wish I'd found him sooner."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">TS</div>
+                            <div>
+                                <strong>Tom S.</strong>
+                                <span>Excavator Finance — Brisbane</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"We'd been looking at a Jayco Journey for months but couldn't get the numbers to work. Chris found us a 5-year term with fortnightly payments that actually fit our budget. Picked it up last Saturday — road trip to Noosa next week!"</blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">LR</div>
+                            <div>
+                                <strong>Lisa &amp; Rob P.</strong>
+                                <span>Caravan Finance — Sunshine Coast</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"Got a Quintrex 530 Renegade financed through Chris. I was worried about the deposit situation but he found a lender who did 100% finance. Whole thing took about two days from first message to money in the seller's account."</blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">DK</div>
+                            <div>
+                                <strong>Daniel K.</strong>
+                                <span>Boat Finance — Gold Coast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn" id="nextTestimonial" aria-label="Next testimonial">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">Common Questions</span>
+                <h2 class="section-title">Everything You Need to Know</h2>
+                <p class="section-subtitle">Got questions? Most people do. Here are the answers to the ones we hear most.</p>
+            </div>
+            <div class="faq-grid" data-animate="fadeInUp">
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Will a credit check affect my score?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>No. When you first reach out, there's no credit check at all — just a friendly conversation. When Chris searches lenders for you, it's a soft inquiry that doesn't impact your credit score. A formal check only happens once you've chosen a lender and want to proceed.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        What if I have bad credit?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>You're welcome here. With access to 40+ lenders — including specialist lenders who focus on non-standard credit — Chris finds solutions where banks say no. Bad credit, defaults, even bankruptcies — there are options available.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        How fast can I get approved?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Same day approvals are the norm. Many clients get approved within hours of their first conversation with Chris. Once approved, settlement is fast too — so you can collect your asset without delays.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Do I need a big deposit?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Not necessarily. Depending on the asset and your profile, $0 deposit options are available. Chris will find the structure that works best for your situation — whether that's no deposit, a small deposit, or a larger one to reduce repayments.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        What documents do I need?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We keep it super low docs. In most cases, you'll just need your driver's licence and proof of income (a recent payslip or bank statement). For business finance, an ABN and 3 months of bank statements is usually enough. Chris will tell you exactly what's needed.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Is there a cost to apply?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Zero. Nothing. Free. There's no cost and no obligation to enquire. Chris will search his lender panel, present your options, and you only proceed if you're happy with the deal. No pressure, no hidden fees.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Why should I use a broker instead of going to the bank?
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>A bank can only offer their own products. Chris has access to 40+ lenders, so he compares dozens of options to find the best rate for your situation. Banks also have strict criteria — if you don't fit their box, you're out. A broker knows each lender's sweet spot and matches you to the right one. It costs you nothing (the lender pays Chris), it saves you hours of running around, and you get a personal service where someone actually picks up the phone. Most clients save thousands compared to going direct.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-animate="slideInLeft">
+                    <div class="about-image-card">
+                        <div class="about-monogram">
+                            <span>CM</span>
+                        </div>
+                        <div class="about-name-card">Chris Matthews</div>
+                        <div class="about-title-card">Finance Specialist</div>
+                        <div class="about-image-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                            Licensed &amp; Accredited
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-animate="slideInRight">
+                    <span class="section-tag">Your Finance Specialist</span>
+                    <h2 class="section-title">Meet Chris. Your Unfair Advantage.</h2>
+                    <p class="about-lead">37 years of collective lending experience getting people approved when others couldn't.</p>
+                    <p>When you work with Chris, you're not just getting a broker — you're getting someone who knows every lender's sweet spot. With 37 years of collective lending experience and access to 40+ lenders through <strong>Finance Hunting</strong>, Chris consistently finds deals that the banks won't offer you directly.</p>
+                    <p>Whether it's your first car, a boat for weekend fishing, or a $500K excavator for your business — Chris handles everything personally. No call centres. No runaround. Just a local Gold Coast specialist who picks up the phone and gets it done.</p>
+                    <div class="about-counter-row">
+                        <div class="about-counter">
+                            <span class="counter-number" data-count="37">0</span>
+                            <span class="counter-label">Years Collective Experience</span>
+                        </div>
+                        <div class="about-counter">
+                            <span class="counter-number" data-count="40">0</span><span class="counter-plus">+</span>
+                            <span class="counter-label">Trusted Lenders</span>
+                        </div>
+                        <div class="about-counter">
+                            <span class="counter-number" data-count="3">0</span>
+                            <span class="counter-label">Service Regions</span>
+                        </div>
+                    </div>
+                    <div class="about-regions">
+                        <span class="region-tag">Gold Coast</span>
+                        <span class="region-tag">Brisbane</span>
+                        <span class="region-tag">Sunshine Coast</span>
+                        <span class="region-tag">Australia Wide</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Now Section -->
+    <section class="apply-section" id="apply">
+        <div class="container">
+            <div class="section-header" data-animate="fadeInUp">
+                <span class="section-tag">Ready to Apply?</span>
+                <h2 class="section-title">Start Your Full Application</h2>
+                <p class="section-subtitle">Already know what you want? Submit your application now and Chris will match you with the best lender within hours.</p>
+            </div>
+            <div class="apply-grid">
+                <div class="apply-info" data-animate="slideInLeft">
+                    <h3 class="apply-info-title">Here's What Happens Next</h3>
+                    <div class="apply-step">
+                        <div class="apply-step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                        </div>
+                        <div>
+                            <strong>Complete the secure application</strong>
+                            <p>Your details are protected with bank-level encryption through our ASIC-registered platform.</p>
+                        </div>
+                    </div>
+                    <div class="apply-step">
+                        <div class="apply-step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                        </div>
+                        <div>
+                            <strong>Chris reviews &amp; matches you</strong>
+                            <p>Your application hits 40+ lenders. Chris personally selects the best rate and terms for your situation.</p>
+                        </div>
+                    </div>
+                    <div class="apply-step">
+                        <div class="apply-step-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        </div>
+                        <div>
+                            <strong>Get approved &mdash; often same day</strong>
+                            <p>Most approvals come through within hours. Chris calls you personally with your options.</p>
+                        </div>
+                    </div>
+                    <p class="apply-reassurance">Not ready for the full application? <a href="sms:0498973117">Send Chris a quick text</a> instead &mdash; no commitment needed.</p>
+                </div>
+                <div class="apply-cta-card" data-animate="slideInRight">
+                    <div class="apply-cta-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                        Secure Application
+                    </div>
+                    <h3>Full Finance Application</h3>
+                    <p>Complete your application through our secure Finance Hunting portal. Takes approximately 10 minutes.</p>
+                    <ul class="apply-checklist">
+                        <li>Loan details &amp; asset info</li>
+                        <li>Personal &amp; employment details</li>
+                        <li>Credit history &amp; financial position</li>
+                        <li>Digital signature</li>
+                    </ul>
+                    <a href="https://financehunting.com/chris/" target="_blank" rel="noopener" class="btn btn-coral btn-full">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        Start My Application
+                    </a>
+                    <div class="apply-trust-row">
+                        <span class="apply-trust-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                            Bank-level security
+                        </span>
+                        <span class="apply-trust-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            ASIC registered
+                        </span>
+                        <span class="apply-trust-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            ~10 minutes
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand-col">
+                    <div class="footer-logo">
+                        <span class="logo-good">Good Coast</span>
+                        <span class="logo-finance">Finance Specialists</span>
+                    </div>
+                    <p class="footer-tagline">Helping Gold Coast locals get approved for the assets they need. Every day.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/share/p/18CDfMuq6v/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="sms:0498973117" aria-label="Text Chris">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <a href="#services">Services</a>
+                    <a href="#calculator">Calculator</a>
+                    <a href="#why-us">Why Us</a>
+                    <a href="#about">About</a>
+                    <a href="#apply">Apply</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Finance</h4>
+                    <a href="#services">Car Finance</a>
+                    <a href="#services">Equipment Finance</a>
+                    <a href="#services">Marine Finance</a>
+                    <a href="#services">Caravan Finance</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Contact</h4>
+                    <a href="tel:0498973117">0498 973 117</a>
+                    <a href="mailto:chris@financehunting.com.au">chris@financehunting.com.au</a>
+                    <span>Molendinar, Gold Coast QLD</span>
+                </div>
+            </div>
+            <div class="footer-compliance">
+                <p>Good Coast Finance Specialists operates under Finance Hunting Pty Ltd | ABN: XX XXX XXX XXX | Australian Credit Licence: XXXXXX | Dealer Licence: 4603352</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Good Coast Finance Specialists. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-legal-link">Privacy Policy</a>
+                    <a href="#" class="footer-legal-link">Terms of Service</a>
+                    <span class="footer-powered">Powered by <a href="https://www.financehunting.com.au" target="_blank" rel="noopener">Finance Hunting</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating SMS Button -->
+    <a href="sms:0498973117" class="sms-float" aria-label="Text Chris" id="smsFloat">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        <span class="sms-tooltip">Text Chris</span>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script>
+// ===== NAVBAR =====
+const navbar = document.getElementById('navbar');
+const navToggle = document.getElementById('navToggle');
+const navMenu = document.getElementById('navMenu');
+
+window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    navToggle.classList.toggle('active');
+    navToggle.setAttribute('aria-expanded', navMenu.classList.contains('active'));
+});
+
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+    });
+});
+
+document.addEventListener('click', (e) => {
+    if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+    }
+});
+
+// ===== ACTIVE NAV SCROLL-SPY =====
+const navLinks = document.querySelectorAll('.nav-link:not(.nav-cta)');
+const sections = document.querySelectorAll('section[id]');
+
+const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            navLinks.forEach(link => {
+                link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+            });
+        }
+    });
+}, { threshold: 0.3, rootMargin: '-80px 0px -50% 0px' });
+
+sections.forEach(section => navObserver.observe(section));
+
+// ===== SCROLL ANIMATIONS =====
+const scrollObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animated');
+            scrollObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('[data-animate]').forEach(el => scrollObserver.observe(el));
+
+// ===== ANIMATED COUNTERS =====
+function easeOutQuad(t) { return t * (2 - t); }
+
+function animateCounter(el, target, duration) {
+    const start = performance.now();
+    const update = (now) => {
+        const progress = Math.min((now - start) / duration, 1);
+        el.textContent = Math.floor(target * easeOutQuad(progress));
+        if (progress < 1) requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+}
+
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+            entry.target.classList.add('counted');
+            const target = parseInt(entry.target.getAttribute('data-count'));
+            animateCounter(entry.target, target, 2000);
+        }
+    });
+}, { threshold: 0.5 });
+
+document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+// ===== TIMELINE ANIMATION =====
+const timeline = document.querySelector('.timeline');
+if (timeline) {
+    const timelineObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animated');
+                timelineObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.3 });
+    timelineObserver.observe(timeline);
+}
+
+// ===== LOAN CALCULATOR =====
+const calcAmount = document.getElementById('calcAmount');
+const calcTerm = document.getElementById('calcTerm');
+const calcRate = document.getElementById('calcRate');
+const calcAmountVal = document.getElementById('calcAmountVal');
+const calcTermVal = document.getElementById('calcTermVal');
+const calcRateVal = document.getElementById('calcRateVal');
+const calcWeekly = document.getElementById('calcWeekly');
+const calcFortnightly = document.getElementById('calcFortnightly');
+const calcMonthly = document.getElementById('calcMonthly');
+
+function formatCurrency(amount) {
+    return '$' + Math.round(amount).toLocaleString();
+}
+
+function calculateRepayments() {
+    const principal = parseFloat(calcAmount.value);
+    const months = parseInt(calcTerm.value);
+    const annualRate = parseFloat(calcRate.value) / 100;
+    const monthlyRate = annualRate / 12;
+
+    let monthly;
+    if (monthlyRate === 0) {
+        monthly = principal / months;
+    } else {
+        monthly = principal * (monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+    }
+
+    const fortnightly = (monthly * 12) / 26;
+    const weekly = (monthly * 12) / 52;
+
+    calcAmountVal.textContent = formatCurrency(principal);
+    calcTermVal.textContent = months + ' months';
+    calcRateVal.textContent = parseFloat(calcRate.value).toFixed(1) + '%';
+
+    calcWeekly.textContent = formatCurrency(weekly);
+    calcFortnightly.textContent = formatCurrency(fortnightly);
+    calcMonthly.textContent = formatCurrency(monthly);
+
+}
+
+calcAmount.addEventListener('input', calculateRepayments);
+calcTerm.addEventListener('input', calculateRepayments);
+calcRate.addEventListener('input', calculateRepayments);
+calculateRepayments();
+
+// ===== TESTIMONIAL CAROUSEL =====
+const slides = document.querySelectorAll('.testimonial-slide');
+const dotsContainer = document.getElementById('testimonialDots');
+const prevBtn = document.getElementById('prevTestimonial');
+const nextBtn = document.getElementById('nextTestimonial');
+let currentSlide = 0;
+let autoplayInterval;
+
+// Create dots
+slides.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.classList.add('testimonial-dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+});
+
+function goToSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    dotsContainer.children[currentSlide].classList.remove('active');
+
+    currentSlide = (index + slides.length) % slides.length;
+
+    slides[currentSlide].classList.add('active');
+    dotsContainer.children[currentSlide].classList.add('active');
+}
+
+function nextSlide() { goToSlide(currentSlide + 1); }
+function prevSlide() { goToSlide(currentSlide - 1); }
+
+prevBtn.addEventListener('click', () => { prevSlide(); resetAutoplay(); });
+nextBtn.addEventListener('click', () => { nextSlide(); resetAutoplay(); });
+
+function resetAutoplay() {
+    clearInterval(autoplayInterval);
+    autoplayInterval = setInterval(nextSlide, 5000);
+}
+
+autoplayInterval = setInterval(nextSlide, 5000);
+
+// Keyboard navigation for carousel
+document.addEventListener('keydown', (e) => {
+    const carousel = document.querySelector('.testimonial-carousel');
+    if (!carousel) return;
+    const rect = carousel.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+    if (!isVisible) return;
+
+    if (e.key === 'ArrowLeft') { prevSlide(); resetAutoplay(); }
+    if (e.key === 'ArrowRight') { nextSlide(); resetAutoplay(); }
+});
+
+// ===== BACK TO TOP =====
+const backToTop = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('visible', window.scrollY > 500);
+});
+
+backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ===== SMOOTH SCROLL =====
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        const target = document.querySelector(targetId);
+        if (target) {
+            e.preventDefault();
+            const navHeight = navbar.offsetHeight;
+            window.scrollTo({
+                top: target.getBoundingClientRect().top + window.pageYOffset - navHeight,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// ===== SMS FLOAT SHOW/HIDE =====
+const smsFloat = document.getElementById('smsFloat');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+        smsFloat.classList.add('visible');
+    } else {
+        smsFloat.classList.remove('visible');
+    }
+});
+    </script>
+</body>
+</html>

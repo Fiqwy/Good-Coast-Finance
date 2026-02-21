@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Coast Finance Specialists - Business Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #1C1F26;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 48px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.8rem;
+            color: #e2e8f0;
+            font-weight: 800;
+        }
+
+        .instructions {
+            color: #6B7280;
+            font-size: 0.88rem;
+            text-align: center;
+            max-width: 480px;
+            line-height: 1.6;
+        }
+
+        .card-pair {
+            display: flex;
+            gap: 48px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card-wrapper { text-align: center; }
+
+        .card-label {
+            font-size: 0.65rem;
+            color: #4A5568;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        /* 3.5in x 2in at 2x = 672px x 384px */
+        .card {
+            width: 672px;
+            height: 384px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 4px 12px rgba(0,0,0,0.2);
+            position: relative;
+        }
+
+        /* ===== FRONT ===== */
+        .card-front {
+            background: linear-gradient(135deg, #1C1F26 0%, #072E2F 40%, #0B3B3C 100%);
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Copper foil accent line */
+        .card-front::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #8B5E2B, #C47D3A, #D99A5B, #E8B87A, #D99A5B, #C47D3A, #8B5E2B);
+        }
+
+        /* Ambient glow */
+        .card-front::after {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -15%;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(42,143,143,0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .front-glow-2 {
+            position: absolute;
+            bottom: -40%;
+            left: -10%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(26,107,109,0.06) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .card-front-top { position: relative; z-index: 1; }
+
+        .card-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .card-brand-name {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+        }
+
+        .card-brand-sub {
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: #C47D3A;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .card-front-bottom {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .card-tagline {
+            font-size: 0.68rem;
+            color: #6DD4D4;
+            max-width: 300px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .card-accent-bar {
+            width: 40px;
+            height: 3px;
+            background: linear-gradient(90deg, #C47D3A, #D99A5B);
+            border-radius: 2px;
+        }
+
+        /* ===== BACK ===== */
+        .card-back {
+            background: #ffffff;
+            padding: 40px 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        /* Copper top line on back too */
+        .card-back::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #8B5E2B, #C47D3A, #D99A5B, #E8B87A, #D99A5B, #C47D3A, #8B5E2B);
+        }
+
+        .back-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .back-person h2 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #0B3B3C;
+            margin-bottom: 2px;
+        }
+
+        .back-person-title {
+            font-size: 0.65rem;
+            color: #C47D3A;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .back-mini-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 1px;
+        }
+
+        .back-mini-logo .mn {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #0B3B3C;
+        }
+
+        .back-mini-logo .ms {
+            font-size: 0.38rem;
+            font-weight: 700;
+            color: #C47D3A;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .back-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 36px;
+        }
+
+        .back-detail {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .back-detail-icon {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, rgba(26,107,109,0.06), rgba(26,107,109,0.12));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .back-detail-icon svg { width: 14px; height: 14px; color: #1A6B6D; }
+
+        .back-detail-text { display: flex; flex-direction: column; }
+
+        .back-detail-label {
+            font-size: 0.45rem;
+            color: #9CA3AF;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+
+        .back-detail-value {
+            font-size: 0.7rem;
+            color: #1A1D23;
+            font-weight: 700;
+        }
+
+        .back-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid #DDE1E8;
+        }
+
+        .back-services {
+            font-size: 0.52rem;
+            color: #9CA3AF;
+            letter-spacing: 0.5px;
+        }
+
+        .back-qr {
+            width: 48px;
+            height: 48px;
+            background: #F7F8FA;
+            border: 1px solid #DDE1E8;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .back-qr-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1px;
+            width: 28px;
+            height: 28px;
+        }
+
+        .back-qr-grid span {
+            width: 100%;
+            height: 100%;
+            background: #1C1F26;
+            border-radius: 1px;
+        }
+
+        .back-qr-grid span:nth-child(2),
+        .back-qr-grid span:nth-child(4),
+        .back-qr-grid span:nth-child(6),
+        .back-qr-grid span:nth-child(8),
+        .back-qr-grid span:nth-child(10),
+        .back-qr-grid span:nth-child(12),
+        .back-qr-grid span:nth-child(14),
+        .back-qr-grid span:nth-child(16),
+        .back-qr-grid span:nth-child(18),
+        .back-qr-grid span:nth-child(20),
+        .back-qr-grid span:nth-child(22),
+        .back-qr-grid span:nth-child(24) {
+            background: transparent;
+        }
+
+        .back-qr-label {
+            font-size: 0.35rem;
+            color: #9CA3AF;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 2px;
+            font-weight: 600;
+        }
+
+        /* Print */
+        .print-btn {
+            padding: 14px 40px;
+            background: #E8573D;
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(232, 87, 61, 0.3);
+        }
+
+        .print-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(232, 87, 61, 0.4);
+        }
+
+        @media print {
+            body { background: white; padding: 20px; }
+            h1, .instructions, .print-btn { display: none; }
+            .card { box-shadow: none; border: 1px solid #DDE1E8; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Business Card Design</h1>
+    <p class="instructions">Standard business card: 3.5" x 2" (90mm x 55mm). Click "Print / Save as PDF" to export for your printer.</p>
+
+    <div class="card-pair">
+        <div class="card-wrapper">
+            <div class="card-label">Front</div>
+            <div class="card card-front">
+                <div class="front-glow-2"></div>
+                <div class="card-front-top">
+                    <div class="card-brand">
+                        <span class="card-brand-name">Good Coast</span>
+                        <span class="card-brand-sub">Finance Specialists</span>
+                    </div>
+                </div>
+                <div class="card-front-bottom">
+                    <p class="card-tagline">Asset &amp; Equipment Finance. Same Day Approvals. All Credit Profiles Welcome.</p>
+                    <div class="card-accent-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="card-label">Back</div>
+            <div class="card card-back">
+                <div class="back-top">
+                    <div class="back-person">
+                        <h2>Chris Matthews</h2>
+                        <span class="back-person-title">Finance Specialist</span>
+                    </div>
+                    <div class="back-mini-logo">
+                        <span class="mn">Good Coast</span>
+                        <span class="ms">Finance Specialists</span>
+                    </div>
+                </div>
+
+                <div class="back-details">
+                    <div class="back-detail">
+                        <div class="back-detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <div class="back-detail-text">
+                            <span class="back-detail-label">Phone</span>
+                            <span class="back-detail-value">0498 973 117</span>
+                        </div>
+                    </div>
+                    <div class="back-detail">
+                        <div class="back-detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        </div>
+                        <div class="back-detail-text">
+                            <span class="back-detail-label">Email</span>
+                            <span class="back-detail-value">chris@financehunting.com.au</span>
+                        </div>
+                    </div>
+                    <div class="back-detail">
+                        <div class="back-detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="back-detail-text">
+                            <span class="back-detail-label">Location</span>
+                            <span class="back-detail-value">Molendinar, Gold Coast QLD</span>
+                        </div>
+                    </div>
+                    <div class="back-detail">
+                        <div class="back-detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                        </div>
+                        <div class="back-detail-text">
+                            <span class="back-detail-label">Web</span>
+                            <span class="back-detail-value">financehunting.com.au</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back-bottom">
+                    <span class="back-services">Cars &bull; Trucks &bull; Boats &bull; Machinery &bull; Caravans &bull; Equipment</span>
+                    <div class="back-qr">
+                        <div class="back-qr-grid">
+                            <span></span><span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span><span></span>
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <span class="back-qr-label">Scan to WhatsApp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+
+</body>
+</html>
